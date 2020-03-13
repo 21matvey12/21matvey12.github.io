@@ -1,0 +1,68 @@
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;	
+    box-sizing:border-box;
+}
+
+html, body, header {height:100%}
+
+html {
+	font-size: 10px;
+}
+
+.nav-container {
+	height: 100px;
+	display: flex;
+	width: 100%;
+	padding: 0 3%;
+	background-color: lime;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.logo {
+	font-size: 4.2rem;
+	font-weight: bold;
+	font-family: 'Sen', sans-serif;
+	width:200px;
+}
+
+.topnav {
+	display: flex;
+	width:65%;
+	justify-content: flex-end;
+}
+
+.nav-link {
+	font-size:2.2rem;
+	font-family: 'Source Code Pro', monospace;
+	text-decoration:none;
+	color:black;
+	padding: 10px 15px; 
+	letter-spacing: 0.5px;
+}
+
+.search-container {
+	width: 15%;
+	margin-left:10px;
+}
+
+#search {
+	background-color: lime;
+	background-image: url(../img/magnifier.png);
+	background-size: 15px 15px;
+	background-repeat:no-repeat;
+	background-position: 0 center;
+	border:none;
+	padding-left:20px;
+	outline: none;
+	font-size: 1.6rem;
+	width: 90%;
+}
+
+#search:focus {
+	border-bottom: 2px solid black;
+}
