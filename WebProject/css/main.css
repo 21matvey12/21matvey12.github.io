@@ -13,6 +13,7 @@ html {
 }
 
 .nav-container {
+	position: fixed;
 	height: 100px;
 	display: flex;
 	width: 100%;
@@ -21,6 +22,7 @@ html {
 	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
+	z-index: 100;
 }
 
 .logo {
@@ -34,6 +36,7 @@ html {
 	display: flex;
 	width:65%;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 .nav-link {
@@ -65,4 +68,65 @@ html {
 
 #search:focus {
 	border-bottom: 2px solid black;
+}
+
+.header {
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/fon1.jpg);
+	height: calc(100%-100px);
+	background-repeat: no-repeat
+	background-size: cover;
+	background-position: center 100px;
+	position: relative;
+	color: white; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	text-align: center;
+}
+
+h1 {
+	font-size: 37px;
+	font-family: 'Kanit', sans-serif;
+}
+p {
+	font-size: 20px;
+	padding:2rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+.header-btn {
+	width: 200px;
+	height: 60px;
+	font-size: 1.6rem;
+	display: inline-block;
+	margin-top: 40px;
+	border:2px solid transparent;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn2 {
+	margin-left: 40px;
+	background-color: lime;
+}
+
+.btn1 {
+	background-color: transparent;
+	border: 2px solid lime;
+}
+
+.header>a>svg {
+	width:40px;
+	fill: lime;
+}
+.header>a {
+	position: absolute;
+	bottom: 20px;
 }

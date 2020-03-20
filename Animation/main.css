@@ -1,0 +1,84 @@
+.out {
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	background-color: lime;
+	border: 2px solid black;
+}
+
+.in {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: 2s;
+}
+
+.out:hover .in {
+	width: 600px;
+	transition: 3s;
+}
+
+.in2 {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	background-color: blue;
+	animation: loader 5s infinite linear;
+}
+
+@keyframes loader {
+	0%{
+		left:0;
+	}
+	50%{
+		left:80%;
+	}
+	100%{
+		left:0;
+	}
+}
+
+.out2 {
+	position: relative;
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	background-color: red;
+	border: 2px solid black;
+}
+
+.box {
+	width: 300px;
+	height: 600px;
+	margin: auto;
+	border: 3px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left, .right {
+	width:50%;
+	height: 100%;
+	background-color: lime;
+	animation: lift 5s infinite linear;
+}
+
+.left{
+	border-right: 1px solid black;
+}
+
+.right {
+	border-left: 1px solid black;
+}
+
+@keyframes lift {
+	0%{
+		
+	}
+	50%{
+		
+	}
+	100%{
+		
+	}
+}
