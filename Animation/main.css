@@ -60,7 +60,8 @@
 	width:50%;
 	height: 100%;
 	background-color: lime;
-	animation: lift 5s infinite linear;
+	transition: 3s ease-in;
+	/*animation: lift 5s infinite linear;*/
 }
 
 .left{
@@ -71,14 +72,22 @@
 	border-left: 1px solid black;
 }
 
+.box:hover .right{
+	width:0%;
+	transition: 2s ease-in;
+}
+
+.box:hover .left{
+	width:0%;
+	transition: 2s ease-in;
+}
+
+
 @keyframes lift {
 	0%{
-		
-	}
-	50%{
-		
+		width:50%;
 	}
 	100%{
-		
+		width:0%;
 	}
 }

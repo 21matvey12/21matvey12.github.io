@@ -1,0 +1,35 @@
+@media all and (min-width: 1200px) {
+	.nav-link:hover {
+	background-color: black;
+	color:lime;
+	}
+	.btn1:hover {
+		background-color:lime;
+		border-color:lime;
+	    color: white;
+	    transition: 0.3s ease-in;
+	}
+	.btn2:hover {
+		background-color:transparent;
+		border-color:lime;
+	    color: white;
+	    transition: 0.3s ease-in;
+	}
+	.second-item:hover {
+		background-color: #7109AB;
+		color:white;
+	}
+
+	.readmore:hover {
+		background-color:white;
+		color:white;
+		transition: 0.9s ease-in;
+		text-shadow: 1px 0 2px black, 0 1px 2px black, -1px 0 2px black, 0 -1px 2px black;
+		border: 3px solid black;
+	}
+
+	.second-item:hover .icon {
+		fill: white;
+		transition: 1.5s;
+	}
+}
