@@ -211,3 +211,91 @@ h3 {
 	letter-spacing: 0.7px;
 }
 
+.tabs {
+	width:80%;
+	margin: auto;
+	padding: 0;	
+}
+
+.tabs>input {
+	display: none;
+}
+
+/*(label который сразу после выбранного input) внутри tabs*/
+.tabs>input:checked+label {
+	background-color: lime;
+	border-color: red;
+}
+
+.tabs>label {
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8rem;
+	background-color: white;
+	border:2px solid black;
+	padding: 5px 10px;
+	cursor:pointer;
+	width:20%;
+}
+
+.content {
+	display: none;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#tab_1:checked ~ #txt1, 
+#tab_2:checked ~ #txt2, 
+#tab_3:checked ~ #txt3,
+#tab_4:checked ~ #txt4 {
+	display: block;
+}
+
+.gallery-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.img {
+	width:30%;
+	margin-top: 3%;
+}
+
+.fourth {
+	background: #00BB3F;
+}
+
+.fourth-box {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.fourth-item {
+	background: white;
+	width: 25%;
+}
+
+.topEl {
+	background-color: blue;
+	padding: 25px 15px;
+	height: 200px;
+	clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+}
+
+.topEl>h3 {
+	margin-top: 0;
+}
+
+.buy {
+	border-radius: 20px;
+	color: black;
+	border:lime;
+	width:15px;
+	height:15px;
+}
+
+.list{
+
+}
