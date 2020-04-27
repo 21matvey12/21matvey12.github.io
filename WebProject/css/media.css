@@ -32,4 +32,74 @@
 		fill: white;
 		transition: 1.5s;
 	}
+
+	.buy:hover {
+		width: 100%;
+		height: 40px;
+		color:white;
+		background-color: black;
+		border-radius: 15px;
+		letter-spacing: 0.7px
+		border: 4px solid black;
+	} 
+
+
 }
+
+@media all and (max-width: 1214px) {
+	.tabs>label {
+		width:40%;
+		height:43px;
+		font-size: 23px;
+	}
+
+	#tab_3+label, #tab_4+label {
+		margin-top: 5px;
+	}
+
+	#tab_1+label, #tab_3+label {
+		margin-right: 5px;
+	}
+}
+
+@media all and (max-width: 1178px) and (min-width:1022px) {
+	.topnav {
+		width: 75%;
+	}
+}
+
+@media all and (max-width: 1021px) {
+	.nav-container {
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	.logo, .search-container, .topnav {
+		display: inline-block;
+	}
+	h2 {
+		font-size: 6vw;
+	}
+
+	.header-btn {
+		width: 50vw;
+		height: 70px;
+	}
+
+	.btn2 {
+		margin-left: 0;
+	}
+
+	.first-item, .second-item, .fourth-item {
+		width: 90%;
+		margin: 20px auto;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.first-box{
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+}
+
