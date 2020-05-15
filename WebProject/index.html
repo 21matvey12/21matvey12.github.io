@@ -20,24 +20,24 @@
 	<div class="nav-container">
 		<div class="logo">GCook</div>
 		<nav class="topnav">
-			<a href="" class="nav-link">Главная</a>
-			<a href="" class="nav-link">О нас</a>
-			<a href="" class="nav-link">Услуги</a>
-			<a href="" class="nav-link">Галерея</a>
-			<a href="" class="nav-link">Контакты</a>
+			<a href="#ONE" class="nav-link">Главная</a>
+			<a href="#TWO" class="nav-link">О нас</a>
+			<a href="#THREE" class="nav-link">Услуги</a>
+			<a href="#FOUR" class="nav-link">Галерея</a>
+			<a href="#FIVE" class="nav-link">Подписки</a>
 			<div class="search-container">
 				<input type="text" id="search">
 			</div>
 		</nav>
 	</div>
-	<header class="header">
+	<header class="header" id="ONE">
 		<div class="box">
 			<h1>It is for cook;)</h1>
 			<p>Cook store</p>
-			<button class="header-btn btn1">Кнопка 1</button>
-			<button class="header-btn btn2">Кнопка 2</button>
+			<button class="header-btn btn1" onclick="document.location='#THREE'">Услуги</button>
+			<button class="header-btn btn2" onclick="document.location='#FIVE'">Подписки</button>
 		</div>
-		<a href="">
+		<a href="#TWO">
 			<svg id="Layer_1" enable-background="new 0 0 56.69 56.69" viewBox="0 0 56.69 56.69" width="512" xmlns="http://www.w3.org/2000/svg">
 				<g><path d="m28.345 41.676c-1.202 0-2.332-.469-3.182-1.318l-17.66-17.662c-1.754-1.754-1.754-4.609 0-6.363.85-.85 1.98-1.318 3.183-1.318s2.333.468 3.182 1.318l14.477 14.479 14.478-14.479c.85-.85 1.979-1.318 3.182-1.318s2.332.468 3.182 1.318c.851.85 1.318 1.98 1.318 3.182s-.468 2.332-1.318 3.182l-17.659 17.658c-.851.853-1.982 1.321-3.183 1.321zm-17.659-24.661c-.668 0-1.296.26-1.769.732-.975.975-.975 2.561 0 3.535l17.66 17.661c.936.936 2.557.948 3.504.029l17.69-17.69c.473-.473.732-1.1.732-1.768s-.26-1.295-.732-1.768c-.945-.944-2.59-.944-3.535 0l-15.891 15.894-15.891-15.893c-.473-.472-1.1-.732-1.768-.732z"/></g>
 			</svg>
@@ -45,7 +45,7 @@
 	</header>
 	<main class="main">
 		<!-- О нас -->
-		<div class="first">
+		<div class="first" id="TWO">
 			<h2>О нас</h2>
 			<p class="text">Мы продаем все для кухни и приготовлении пищи</p>
 			<div class="first-box">
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 		<!--Услуги 2-й экран-->
-		<div class="first second">
+		<div class="first second" id="THREE">
 			<h2>Услуги</h2>
 			<p>Здесь находятся наши услуги</p>
 			<div class="first-box second-box">
@@ -157,7 +157,7 @@
 			</div>
 		</div>
 		<!-- Третья страница товары -->
-		<div class="first"> 
+		<div class="first" id="FOUR"> 
 			<h2>Галерея товаров</h2>
 			<p class="text">Здесь находятся все товары</p>
 			<div class="tabs">
@@ -171,51 +171,48 @@
 				<label for="tab_4">Электроприборы</label>
 				<div class="content" id="txt1">
 					<div class="galery-box">
-						<img src="img/cook.jpg" alt="" class="img">
-						<img src="img/knife.svg" alt="" class="img">
-						<img src="img/nozh.svg" alt="" class="img">
-						<img src="img/money.png" alt="" class="img">
-						<img src="img/fork.svg" alt="" class="img">
-						<img src="img/kitchen.svg" alt="" class="img">
+						<img src="img/p1.jpg" alt="" class="img">
+						<img src="img/p2.jpg" alt="" class="img">
+						<img src="img/p3.jpg" alt="" class="img">
+						<img src="img/p4.jpg" alt="" class="img">
+						<img src="img/p5.jpg" alt="" class="img">
+						<img src="img/p6.jpg" alt="" class="img">
 					</div>
 					<button>Все товары</button>
 				</div>
 				<div class="content" id="txt2">
 					<div class="galery-box">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
+						<img src="img/s1.jpg" alt="" class="img">
+						<img src="img/s2.jpg" alt="" class="img">
+						<img src="img/s3.jpg" alt="" class="img">
+						<img src="img/s4.jpg" alt="" class="img">
+						<img src="img/s5.jpg" alt="" class="img">
 					</div>
 					<button>Все товары</button>
 				</div>
 				<div class="content" id="txt3">
 					<div class="galery-box">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
+						<img src="img/g1.jpg" alt="" class="img">
+						<img src="img/g2.jpg" alt="" class="img">
+						<img src="img/g3.jpg" alt="" class="img">
+						<img src="img/g4.jpg" alt="" class="img">
+						<img src="img/g5.jpg" alt="" class="img">
+						<img src="img/g6.jpg" alt="" class="img">
 					</div>
 					<button>Все товары</button>
 				</div>
-				<div class="content" id="<txt4></txt4>">
-					<div class="galery-box">img/
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
-						<img src="img/" alt="" class="img">
+				<div class="content" id="txt4">
+					<div class="galery-box">
+						<img src="img/h1.jpg" alt="" class="img">
+						<img src="img/h2.webp" alt="" class="img">
+						<img src="img/h3.jpg" alt="" class="img">
+						<img src="img/h4.jpg" alt="" class="img">
 					</div>
 					<button>Все товары</button>
 				</div>
 			</div>
 		</div>
-		<div class="first fourth">
+		<div class="first fourth" id="FIVE">
 			<h2>Подписки</h2>
 			<p class="text">text</p>
 			<div class="first-box fourth-box">
@@ -255,6 +252,35 @@
 						<button class="buy">Купить сейчас</button>
 						<button class="buy2 buy">Купить в один клик</button>
 					</div>	
+			</div>
+		</div>
+		<!-- Контакты -->
+		<div class="fifth first">
+			<h3>Контакты</h3>
+			<p class="text">Отправьте нам заявку и мы с вами свяжемся</p>
+			<div class="contact-box">
+				<div class="contact-item first-item">
+					<img src="img/street-map.png" alt="" class="icon">
+					<br>
+					<p class="text">Адрес</p>
+				</div>
+				<div class="contact-item first-item">
+					<img src="img/call.png" alt="" class="icon">
+					<br>
+					<p class="text">Номер телефона</p>
+				</div>
+				<div class="contact-item first-item">
+					<img src="img/web.png" alt="" class="icon">
+					<br>
+					<p class="text">Электронная почта</p>
+				</div>
+			</div>
+			<div class="form-box">
+				<div class="input">
+					<input type="text" placeholder="Ваше имя"><input type="e-mail" placeholder="Ваш e-mail">
+				</div>
+				<textarea id="msg" placeholder="Ваше сообщение"></textarea>
+				<button class="send">Отправить</button>
 			</div>
 		</div>
 	</main>
